@@ -3,7 +3,7 @@
 FROM jboss/base-jdk:11
 USER root
 
-ENV ACTIVEMQ_VERSION 5.15.8
+ENV ACTIVEMQ_VERSION 5.15.11
 ENV ACTIVEMQ apache-activemq-$ACTIVEMQ_VERSION
 ENV ACTIVEMQ_HOME /opt/activemq
 COPY ./activemq.sh /
